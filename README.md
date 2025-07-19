@@ -14,8 +14,7 @@
 
 ## 📸 Preview
 
-
-
+SMART CAMPUS PREVIEW.jpeg
 
 
 ## ⚙️ Technologies Used
