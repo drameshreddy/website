@@ -1,70 +1,44 @@
-# React + TypeScript + Vite
+# 🌊 Smart Campus Monitoring Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Real-time water tank level monitoring system using **React + Firebase Realtime Database**.  
+> Visualizes sensor data live from IoT-based water level sensors and displays status alerts for smart campus infrastructure.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Real-time sensor updates from Firebase  
+✅ Visual feedback with status indicators (`good`, `warning`, `critical`)  
+✅ Last updated timestamps for all sensor entries  
+✅ Modular React hooks and components  
+✅ TailwindCSS integration for modern UI  
+✅ Sensor location and trend tracking  
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚙️ Technologies Used
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+⚛️ React + Vite
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# website
+🔥 Firebase Realtime Database
+
+⛓ TypeScript
+
+🎨 TailwindCSS
+
+🪝 Custom React Hooks
+
+## 🛠 Future Scope
+
+🌐 Deploy with Firebase Hosting or Vercel
+
+📈 Add chart visualizations using Chart.js or Recharts
+
+📱 Responsive mobile-friendly design
+
+🔔 Push notifications for critical thresholds
+
+📥 Export data as CSV
+
